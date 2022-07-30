@@ -12,14 +12,19 @@ export type MessagePropsType = {
 export const Message = (props: MessagePropsType) => {
     return (
         <div className={s.message}>
+
             <div className={s.img_wrapper}>
                 <img className={s.message_img} src={props.avatar} alt="avatar"/>
             </div>
+
+            <div className={s.angle}></div>
+
             <div className={s.message_area}>
                 <span className={s.message_name}>{props.name}</span>
                 <p className={s.message_text}>{props.message}</p>
                 <span className={s.message_time}>{props.time}</span>
             </div>
+
         </div>
 
     )
