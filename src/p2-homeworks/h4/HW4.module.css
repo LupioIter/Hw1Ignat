@@ -1,5 +1,5 @@
 .blue {
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid #2f2f91;
 }
 
 .column {
@@ -9,5 +9,5 @@
 }
 
 .testSpanError {
-    color: blue;
+    color: #2f2f91;
 }
